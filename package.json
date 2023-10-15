@@ -1,0 +1,28 @@
+{
+  "name": "caddr",
+  "version": "0.0.1",
+  "description": "command line utilities for caddr.org",
+  "main": "index.js",
+  "bin": {
+    "caddr": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caddr-org/cli.git"
+  },
+  "keywords": [
+    "caddr"
+  ],
+  "author": "Kevin Kwok <antimatter15@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caddr-org/cli/issues"
+  },
+  "homepage": "https://github.com/caddr-org/cli#readme"
+}
